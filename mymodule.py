@@ -6,7 +6,7 @@ def get_ip():
     return requests.get("https://icanhazip.com").text.strip()
 
 
-def get_ip_long_docstring():
+def get_long_docstring_ip():
     """Get my current external IP, long docstring version"
 
     This is a long docstring.
