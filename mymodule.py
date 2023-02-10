@@ -7,7 +7,7 @@ def get_ip():
 
 
 def get_ip_long_docstring():
-    """Get my current external IP.
+    """Get my current external IP, long docstring version"
 
     This is a long docstring.
 

@@ -1,8 +1,10 @@
 from mymodule import get_ip, get_ip_long_docstring
+import pprint 
 
 def test_get_ip_type():
     """The IP is expected to be a string."""
     ip = get_ip()
+    pprint.pprint(ip)
     assert isinstance(ip, str)
 
 
